@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+  <title>sweet  box    </title>
+  <!-- Enlazamos el archivo de estilos -->
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1> sweet box
+    <nav><nav class="navbar">
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+    <ul class="menu" id="menu">
+      <ul>
+        <img src="SWEET BOX.png"></img>
+        <li><a href="#">inicio</a></li>
+        <li><a href="#">Sobre mí</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <main>
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>somos una empresa de cajas de dulces personalizadas que buscan ofrecerte una mejor experiencia
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos¿ph2>
+      <p>Aquí mostraré mis trabajos, proyectos escolares o personales. Puedo poner imágenes, enlaces y descripciones.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Si quieres comunicarte conmigo, puedes escribirme a <a href="sweetbox1254@gmail.com">sweetbox1254@gmail.com  </p>
+    </section>
+  </main>
+  </header>
+
+  <main>
+    <section>
+      <h2>¿Qué es HTML?</h2>
+      <p>HTML es el lenguaje que usamos para estructurar páginas web.</p>
+    </section>
+
+    <section>
+      <h2>¿Qué es CSS?</h2>
+      <p>CSS es el lenguaje que usamos para dar estilos y diseño a esas páginas.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Mi  página con HTML y CSS</p>
+  </footer>
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('menu');
+
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
